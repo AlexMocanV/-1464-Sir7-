@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+unsigned long long p,k;
+int main()
+{
+    
+    cin>>p>>k;
+    if(k%2==0)
+    {
+        cout<<p+k/2*10+(k/2-1)*20;
+    }
+    else
+    {
+         cout<<p+k/2*10+k/2*20;
+    }
+    
+    
+
+    return 0;
+}
